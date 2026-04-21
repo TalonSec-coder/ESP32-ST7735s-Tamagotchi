@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "397abc7c-300b-4d6f-9337-33290484b5ae")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 167.64 52.07)
+		(size 52.07 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59951854-b551-47f5-ac04-53031cec35b0")
+		(property "Sheetname" "macros + mounting holes + fudicials"
+			(at 167.64 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "macros.kicad_sch"
+			(at 167.64 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32Pet"
+				(path "/397abc7c-300b-4d6f-9337-33290484b5ae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 52.07)
+		(size 50.8 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6de349e7-ced3-4959-8be3-0b8312a7c7a3")
+		(property "Sheetname" "TFT LCD"
+			(at 110.49 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tft_lcd.kicad_sch"
+			(at 110.49 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32Pet"
+				(path "/397abc7c-300b-4d6f-9337-33290484b5ae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 92.71)
+		(size 50.8 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96da55df-4a44-41f7-a6e8-307058d63992")
+		(property "Sheetname" "Power"
+			(at 110.49 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 110.49 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32Pet"
+				(path "/397abc7c-300b-4d6f-9337-33290484b5ae"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 52.07)
+		(size 50.8 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6f3f8e7-497e-4fdc-8903-b1149d2e59fb")
+		(property "Sheetname" "ESP-32-WROOM"
+			(at 52.07 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 52.07 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32Pet"
+				(path "/397abc7c-300b-4d6f-9337-33290484b5ae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
